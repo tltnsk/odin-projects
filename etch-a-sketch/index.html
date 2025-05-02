@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee+Tint&family=Doto:wght@100..900&family=Roboto+Mono:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sixtyfour+Convergence:BLED,SCAN,XELA,YELA@9,-52,-4,-47&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <div class="buttons">
+        <button id="randomColorBtn">Random Color</button>
+        <input type="color" id="colorPicker" value="#000000">
+        <button id="resetBtn">Reset</button>
+        <button id="eraseBtn">Erase</button>
+    </div>
+    <div class="resize">
+        <button id="resizeBtn">Resize</button><input type="text" id="resizeValue" placeholder="Enter size &lt 100"/>
+    </div>
+    <div id="container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
