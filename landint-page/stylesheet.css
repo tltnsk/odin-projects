@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.header{
+    color: white;
+    background-color: #3c6371;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-logo img {
+    height: 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.title-sub{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 40px;
+}
+
+.header-body {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px; 
+    gap: 20px;
+}
+
+.hb-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hb-right img {
+    max-height: 300px;
+    margin-left: 44px;
+}
+
+button {
+    background-color: #4f8284;
+    color: white;
+    padding: 15px 70px;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    background-color: #4f8284;
+    cursor: pointer;
+}
+
+#h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #3c6371;
+    margin: 50px;
+}
+
+.boxes {
+    color: #3c6371;
+    font-size: 18px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img-txt {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3c6371;
+    border-radius: 10px;
+}
+
+.section2 {
+    margin: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.img-txt img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.img-txt p {
+    text-align: center;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #3c6371;
+}
+
+.quote-author {
+    color: #3c6371;
+    font-weight: bold;
+    align-self: self-end;
+}
+
+#section4 {
+    padding: 88px 111px;
+}
+
+.call-action {
+    background-color: #284b63;
+    border-radius: 8px;
+    color: #f9faf8;
+    display: flex;
+    padding: 33px 77px;
+    justify-content: space-around;
+}
+
+.call-action-button {
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.call-action-button:hover {
+    background-color: #3f6e8d;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}
