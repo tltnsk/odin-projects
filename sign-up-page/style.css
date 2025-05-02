@@ -1,0 +1,116 @@
+body,
+html {
+    background-color: rgb(208, 106, 208);
+    font-family: "Rubik", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.image-section {
+    flex: 0 0 40%;
+    max-width: 40%;
+    height: 100%;
+}
+
+.login-img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-section {
+    flex: 1;
+    max-width: 60%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.intro {
+    margin-top: 100px;
+    font-size: 24px;
+    color:rgb(66, 33, 96);
+}
+
+.customer-info h2 {
+    color:rgb(130, 36, 217);
+    font-size: 40px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #7d1ee9;
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+    background-color: transparent;
+}
+
+input.valid {
+    border-color: green;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.error-message {
+    font-size: 0.8rem;
+    color: red;
+    height: 1em;
+    margin-top: 0.2rem;
+}
+ 
+a {
+    text-decoration: none;
+    color:rgb(61, 4, 114);
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 43%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(208, 106, 208);
+}
+
+input:focus {
+    border-bottom-color: rgb(208, 106, 208);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
